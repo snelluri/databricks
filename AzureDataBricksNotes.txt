@@ -1,0 +1,11 @@
+Amount of system wait before terminate is specificed in the Terminate After time. 
+Enable Autoscaling is for optimizing the cost
+What causes them to be Terminated? 
+  Either Manual or Automatic
+The minimum and maximum number of nodes, there is no limit on maximum. The larger so far seen is 1000 of nodes
+
+You will get billed for VM services and databricks once you start using it. 
+
+No charges for creating workspaces. 
+
+
