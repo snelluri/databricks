@@ -9,3 +9,4 @@ You will get billed for VM services and databricks once you start using it.
 No charges for creating workspaces. 
 
 
+https://github.com/anagha-microsoft/databricks-workshops
