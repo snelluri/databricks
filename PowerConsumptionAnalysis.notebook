@@ -1,0 +1,29 @@
+dbutils.fs.ls('/mnt/')
+
+%sh head /dbfa/mnt/myblob/household_power_consumption.txt
+
+from pyspark.sql.types import *
+
+schema=StructType
+
+delta: Parquet files with some transactional journals associated with them. 
+
+SSIS Vs Azure Data Factory VS DataBricks
+
+DF vs DB:
+Scheduleing is allowed in DB
+
+Complicated pipelines can be orchestrated using ADF. ADF is an orchestration engine
+
+SSIS is not a cloud tool. 
+
+ApacheSolr is not part of the Azure Databricks. Customers can sping up their Apache Solr and DF's from Databricks can be pushed. 
+
+BI persona, Curating the data in Azure DB and summarizing the data in Azure DB. 
+
+Blob to adgenq
+
+df = (spark.read.csv("/mnt/myblob/household_power_consumption.txt", 
+          schema=schema, 
+          header=True,
+          ignore
